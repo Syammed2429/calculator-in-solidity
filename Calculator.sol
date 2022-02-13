@@ -14,4 +14,9 @@ contract Calculator {
     function Sub() external view returns (uint256) {
         return a - b;
     }
+
+    //Multiplication function
+    function Mult() external view returns (uint256) {
+        return a * b;
+    }
 }
