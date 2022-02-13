@@ -19,4 +19,9 @@ contract Calculator {
     function Mult() external view returns (uint256) {
         return a * b;
     }
+
+    //Division function
+    function Divide() external view returns (uint256) {
+        return a / b;
+    }
 }
