@@ -9,4 +9,9 @@ contract Calculator {
     function Add() external view returns (uint256) {
         return a + b;
     }
+
+    //Subraction function
+    function Sub() external view returns (uint256) {
+        return a - b;
+    }
 }
